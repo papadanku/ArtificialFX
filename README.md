@@ -1,25 +1,25 @@
-# ShaderCell
+# ShaderCells
 
-This project gives you the files to create a custom AI assistant, a computer program that can answer questions or give advice, for working with ReShadeFX. ReShadeFX is a tool that enhances how games look by modifying visual effects. The ShaderCell project provides a specialized AI assistant for creating ReShadeFX shaders, which are scripts that control these visual changes. It uses a specialized collection of information (its "knowledge base") and a technique called Retrieval-Augmented Generation (RAG) to ensure the AI uses accurate information.
+This project gives you the files to create a custom AI assistant, a computer program that can answer questions or give advice, for working with ReShadeFX. ReShadeFX is a tool that enhances how games look by modifying visual effects. The ShaderCells project provides a specialized AI assistant for creating ReShadeFX shaders, which are scripts that control these visual changes. It uses a specialized collection of information (its "knowledge base") and a technique called Retrieval-Augmented Generation (RAG) to ensure the AI uses accurate information.
 
 ## What is "RAG"?
 
 Imagine an AI that seems knowledgeable but sometimes makes up facts or gives outdated information. RAG, which stands for Retrieval-Augmented Generation, helps address this. With RAG, the AI first looks up information from a trusted source and then uses what it finds to create its response. This method makes the AI's answers more accurate and specific to your question.
 
-ShaderCell uses RAG by following the instructions in Source/Instructions.md. These instructions tell the AI to treat the files in the Source/Knowledge folder as its primary source of truth. When you ask the AI a question about a shader:
+ShaderCells uses RAG by following the instructions in Source/Instructions.md. These instructions tell the AI to treat the files in the Source/Knowledge folder as its primary source of truth. When you ask the AI a question about a shader:
 
 1. **It retrieves**: The AI searches `REFERENCE.md`, `windows-win32-direct3dhlsl.pdf`, `ReShade.txt`, and `Examples.txt` to find the most relevant information.
 2. **It augments**: The AI uses the information it finds to build its response. This ensures that any shader code, explanations, or debugging advice are correct and follow ReShadeFX's best practices.
 
-This RAG approach makes ShaderCell a highly specialized and dependable expert for ReShadeFX shader development.
+This RAG approach makes ShaderCells a highly specialized and dependable expert for ReShadeFX shader development.
 
 ## Installation for Google Gemini
 
-Use this guide to prepare your ShaderCell files for Google's Gemini platform and create a specialized AI assistant.
+Use this guide to prepare your ShaderCells files for Google's Gemini platform and create a specialized AI assistant.
 
 ### Step 1: Download the Files
 
-1. Go to the official project page: https://papadanku.github.io/ShaderCell/
+1. Go to the official project page: https://papadanku.github.io/ShaderCells/
 2. Click **`Download .zip`** to get the files.
 3. Unzip to a memorable location on your computer.
 
@@ -28,7 +28,7 @@ Use this guide to prepare your ShaderCell files for Google's Gemini platform and
 1. Open Google Gemini (https://gemini.google.com/app) and log in.
 2. Find and click the **`Gems`** button on the right side of the screen.
 3. Click the **`New Gem`** button on the left side of the screen.
-4. Give your new Gem a name, like "ShaderCell Assistant."
+4. Give your new Gem a name, like "ShaderCells Assistant."
 
 ### Step 3: Configure Your Gem
 
@@ -38,11 +38,11 @@ Use this guide to prepare your ShaderCell files for Google's Gemini platform and
 
 ## Installation for Mistral AI's Le Chat
 
-Use this guide to set up ShaderCell files with Mistral AI's Le Chat for your own ReShadeFX expert.
+Use this guide to set up ShaderCells files with Mistral AI's Le Chat for your own ReShadeFX expert.
 
 ### Step 1: Download the Files
 
-1. Go to the project's website: https://papadanku.github.io/ShaderCell/
+1. Go to the project's website: https://papadanku.github.io/ShaderCells/
 2. Click **`Download .zip`** to get the files.
 3. Unzip the files to a memorable location on your computer.
 
@@ -64,7 +64,7 @@ Use this guide to set up ShaderCell files with Mistral AI's Le Chat for your own
 
 ## Installation for AnythingLLM
 
-Use AnythingLLM to run your AI assistant locally and offline. Follow this guide to set it up with ShaderCell's ReShadeFX knowledge.
+Use AnythingLLM to run your AI assistant locally and offline. Follow this guide to set it up with ShaderCells's ReShadeFX knowledge.
 
 ### Step 1: Install the Application
 
@@ -92,7 +92,7 @@ Use AnythingLLM to run your AI assistant locally and offline. Follow this guide 
 
 ## Installation for GPT4All
 
-Use GPT4All to run your AI assistant locally, without needing an internet connection. Follow this guide to set up ShaderCell's ReShadeFX capabilities.
+Use GPT4All to run your AI assistant locally, without needing an internet connection. Follow this guide to set up ShaderCells's ReShadeFX capabilities.
 
 ### Step 1: Prepare the Application
 
