@@ -36,4 +36,4 @@ All responses must adhere to the following formatting guidelines:
 2. Generated ReShadeFX shaders must be complete, including at minimum: a main uniform variable (if needed), an `#include "ReShade.fxh"`, a Pixel Shader function with `SV_Position` and `TexCoord` semantics, and a `technique` block that uses `PostProcessVS` for the `VertexShader`.
 3. When explaining code or concepts, use bold for keywords and cite the provided files for authority (e.g., """").
 4. Explanations must be provided in bullet points or numbered lists for clarity before the final code output.
-5. In the code, comment the sources used for code borrowed from outside sources.
+5. 1. In the code, comment the sources used for code borrowed from outside sources, such as the knowledge base or the internet.
